@@ -1,1 +1,43 @@
-// Empty file
+{
+    "editor.fontSize": 11.5,
+    "nmake.razzleTerminal": {
+        "createOnContextChange": "Enabled",
+        "createOnStart": "Always",
+        "displayOptions": "Never"
+    },
+    "zenMode.hideActivityBar": false,
+    "editor.minimap.enabled": false,
+
+    // Enable Breadcrumbs
+    "breadcrumbs.enabled": true,
+
+    // Use <TAB> for completion instead of <ENTER>
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "on",
+
+    // Show Whitespace characters
+    "editor.renderWhitespace": "all",
+
+    "workbench.iconTheme": null,
+    "workbench.colorCustomizations": {
+       "editorCursor.foreground": "#ff0000",
+       "editor.selectionBackground": "#135564",
+       "editor.selectionHighlightBackground": "#135564",
+       "terminal.foreground": "#448f2d",
+       "terminalCursor.foreground": "#ff0000",
+       "terminal.ansiWhite": "#ffffff"
+    },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.enableBell": false,
+    "terminal.integrated.shell.windows": "powershell.exe",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.confirmOnExit": true,
+
+    "explorer.openEditors.visible": 10,
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+    "nmake.hide-large-folder-notification": true,
+    "C_Cpp.updateChannel": "Insiders"
+}
