@@ -1,10 +1,6 @@
 {
     "editor.fontSize": 11.5,
-    "nmake.razzleTerminal": {
-        "createOnContextChange": "Enabled",
-        "createOnStart": "Always",
-        "displayOptions": "Never"
-    },
+
     "zenMode.hideActivityBar": false,
     "editor.minimap.enabled": false,
 
@@ -17,7 +13,14 @@
 
     // Show Whitespace characters
     "editor.renderWhitespace": "all",
+    
+    // Save editor space
+    "editor.glyphMargin": true,
+    "editor.folding": false,
+    //"editor.lineNumbers": "off",
 
+    "editor.maxTokenizationLineLength": 2000,
+    
     "workbench.iconTheme": null,
     "workbench.colorCustomizations": {
        "editorCursor.foreground": "#ff0000",
@@ -38,6 +41,30 @@
     "explorer.openEditors.visible": 10,
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
+    
+    "explorer.openEditors.visible": 10,
+    //"workbench.activityBar.visible": true,
     "nmake.hide-large-folder-notification": true,
-    "C_Cpp.updateChannel": "Insiders"
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.configurationWarnings": "Disabled",
+    "C_Cpp.default.enableConfigurationSquiggles": false,
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "extensions.autoUpdate": false,
+        // Xperf
+    "[xperf]": {
+        
+    },
+    "files.associations": {
+        "*.txt": "xperf",
+        "sources": "xperf",
+        "*.ps1": "xperf",
+        "*.json": "xperf",
+        "*.definition": "xperf"
+    },
+    "git.suggestSmartCommit": false,
+    "workbench.activityBar.visible": false,
+    "files.exclude": {
+        ".err": true,
+        ".log": true
+    }
 }
